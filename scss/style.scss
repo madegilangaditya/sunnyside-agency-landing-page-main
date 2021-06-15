@@ -1,0 +1,133 @@
+$font1: 'Barlow', sans-serif;
+$font2: 'Fraunces', serif;
+$primary-color1: hsl(7, 99%, 70%);
+$primary-color2: hsl(51, 100%, 49%);
+$primary-color3: hsl(167, 40%, 24%);
+$primary-color4: hsl(198, 62%, 26%);
+$primary-color5: hsl(168, 34%, 41%);
+$neutral-color1: hsl(212, 27%, 19%);
+$neutral-color2: hsl(213, 9%, 39%);
+$neutral-color3: hsl(232, 10%, 55%);
+$neutral-color4: hsl(210, 4%, 67%);
+$neutral-color5: hsl(0, 0%, 100%);
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: $font1;
+    color: hsl(210, 4%, 67%);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: $font2;
+    color: $neutral-color1;
+}
+
+header{
+    padding: 32px 24px 130px;
+    background: center/cover no-repeat url(../images/mobile/image-header.jpg);
+}
+
+.menu-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: none;
+}
+
+.banner-wrap{
+    margin-top: 85px;
+    text-align: center;
+
+    h1{
+        color: $neutral-color5;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 7px;
+        font-size: 2.5rem;
+        margin-bottom: 48px;
+    }
+}
+
+.section{
+    text-align: center;
+
+    img{
+        width: 100%;
+    }
+}
+
+.col-content{
+    text-align: center;
+    padding: 60px 24px;
+
+    h2{
+        font-size: 2.0625rem;
+        margin-bottom: 25px;
+    }
+
+    p{
+        font-size: 1.125rem;
+        line-height: 1.65;
+        margin-bottom: 37px;
+    }
+
+    a{
+        font-family: $font2;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 1px;
+        color: $neutral-color1;
+        position: relative;
+        padding: 8px;
+    }
+
+    a:before{
+        content: "";
+        width: 100%;
+        border-bottom: 8px solid hsl(51, 100%, 49%);
+        position: absolute;
+        bottom: 8px;
+        left: 0px;
+        z-index: -1;
+        border-radius: 10px; 
+        opacity: .6;
+    }
+
+    a:hover:before{
+        opacity: 1;
+    }
+}
+
+.col-graph, .col-photo{
+    padding: 413px 20px 60px;
+
+    h3{
+        font-size: 1.75rem;
+        font-weight: 900;
+        text-transform: capitalize;
+        margin-bottom: 28px;
+    }
+
+    p{
+        font-size: 1rem;
+        line-height: 1.7;
+        color: $neutral-color1;
+    }
+}
+
+.col-graph{
+    background: top/cover no-repeat url(../images/mobile/image-graphic-design.jpg);
+}
+
+.col-photo{
+    background: top/cover no-repeat url(../images/mobile/image-photography.jpg);
+}
