@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/desktop-deesign.jpg)
+![](./design/desktop-design.jpg)
 
 ### Links
 
