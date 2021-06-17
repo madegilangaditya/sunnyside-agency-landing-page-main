@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/first-landing-page-mobile-first-workflow-css-grid-css-flexbox-v0UAzdkw1](https://www.frontendmentor.io/solutions/first-landing-page-mobile-first-workflow-css-grid-css-flexbox-v0UAzdkw1)
+- Live Site URL: [https://madegilangaditya.github.io/sunnyside-agency-landing-page-main/](https://madegilangaditya.github.io/sunnyside-agency-landing-page-main/)
 
 ## My process
 
@@ -39,6 +39,7 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- Vanilla JS
 
 ## Author
 
