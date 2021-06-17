@@ -11,6 +11,7 @@ $neutral-color3: hsl(232, 10%, 55%);
 $neutral-color4: hsl(210, 4%, 67%);
 $neutral-color5: hsl(0, 0%, 100%);
 
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -22,6 +23,10 @@ body{
     font-family: $font1;
     color: $neutral-color4;
     font-size: 1.125rem;
+}
+
+a{
+    text-decoration: none;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -52,7 +57,7 @@ header{
     visibility: hidden;
     opacity: 0;
 
-    .menu ul {
+    ul {
 
         li{
             margin-bottom: 35px;
@@ -207,6 +212,7 @@ header{
 
     img{
         max-width: 74px;
+        height: 74px;
         border-radius: 50%;
         margin-bottom: 27px;
     }
@@ -234,10 +240,14 @@ header{
     grid-template-columns: 1fr 1fr;
 }
 
+.desktop-img{
+    display: none;
+}
+
 footer{
     padding: 60px 24px;
     text-align: center;
-    background: rgba($primary-color5, .6);
+    background: rgba(#77caba, .7);
 
     .logo-footer{
         max-width: 170px;
@@ -249,12 +259,22 @@ footer{
     .social-media ul{
         display: flex;
         justify-content: space-around;
-        color: #2C7566;
         gap: 30px;
+        max-width: 350px;
+        margin: auto;
         margin-bottom: 90px;
 
         li{
             list-style-type: none;
+
+            a{
+                color: #2C7566;
+
+                &:hover{
+                    color: lighten(#2C7566, 20%);
+                }
+            }
+
         }
     }
 
